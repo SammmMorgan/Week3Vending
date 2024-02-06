@@ -12,14 +12,17 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
   <title>VendingMachine</title>
 </head>
 
-<body>
+<body class="debug">
   <!-- SECTION -->
   <header>
-    <nav class="navbar navbar-dark navbar-expand bg-success text-light px-2">
+    <nav class="navbar navbar-dark bg-success text-light align-items-end px-2">
       <p class="fs-1 ">WaterFowl Vending </p>
+      <p class="fs-3 ">Total Bills: 0</p>
     </nav>
   </header>
 
@@ -86,6 +89,19 @@
               <p class="card-text">Text</p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="row moneyBox">
+        <div class="col-4">
+          <div class="card text-white bg-dark">
+            <img class="card-img-top" src="holder.js/100px180/" alt="Title" />
+            <div class="card-body text-end">
+              <h4 class="card-title">Current Bills: </h4>
+              <button onclick="inputBillsToTotal" class="btn btn-light">Input 0.25 Bills</button>
+            </div>
+          </div>
+
+
         </div>
       </section>
     </div>

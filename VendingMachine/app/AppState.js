@@ -1,6 +1,8 @@
 import { EventEmitter } from './utils/EventEmitter.js'
 import { createObservableProxy } from './utils/ObservableProxy.js'
 
+let bills = 0
+
 class ObservableAppState extends EventEmitter {
 
   /**@type {import('./models/Example.js').Example[]} */
