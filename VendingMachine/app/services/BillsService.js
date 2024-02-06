@@ -5,7 +5,7 @@ class BillsService {
     inputBillsToTotal() {
 
         // console.log('bill input on service');
-        AppState.bills += 0.25
+        AppState.bills += 5
         console.log(AppState.bills);
     }
 

@@ -30,7 +30,7 @@ class ObservableAppState extends EventEmitter {
     ),
     new Duck(
       {
-        name: 'Kirk and Emily',
+        name: 'Kirk and Emilee',
         price: 250,
         imgUrl: 'https://plus.unsplash.com/premium_photo-1667173835640-20a03a45a71e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       }
